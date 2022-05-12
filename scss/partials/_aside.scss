@@ -1,10 +1,4 @@
-@mixin white-gradient {
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-}
+@import "../sass2/mixins";
 
 $animationSpeed: 40s;
 
@@ -26,7 +20,7 @@ $animationSpeed: 40s;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 960px;
+  width: 1900px;
 
   &::before,
   &::after {

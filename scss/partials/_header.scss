@@ -1,3 +1,7 @@
+@import "../variables/variables";
+@import "../sass2/extend";
+@import "../sass2/mixins";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,6 +13,6 @@ html {
 }
 
 body {
-  font-family: "Bebas Neue", cursive;
+  @extend .body-animaciones;
   min-height: 100%;
 }

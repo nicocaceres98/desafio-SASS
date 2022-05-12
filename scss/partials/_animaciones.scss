@@ -1,14 +1,11 @@
 nav ul li a {
-  font-family: "Bebas Neue", cursive;
+  @extend .body-animaciones;
   position: relative;
   display: inline-block;
   margin: 15px;
   padding: 15px 30px;
-  text-align: center;
-  font-size: 18px;
   letter-spacing: 1px;
   text-decoration: none;
-  color: #000000;
   background: transparent;
   cursor: pointer;
   transition: ease-out 0.5s;
@@ -28,9 +25,8 @@ nav ul li a:active {
 }
 
 ul {
-  text-align: center;
+  @extend .body-animaciones;
   list-style-type: none;
-  color: rgb(0, 0, 0);
 }
 
 li {
