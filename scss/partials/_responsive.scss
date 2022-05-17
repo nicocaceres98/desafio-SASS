@@ -1,67 +1,94 @@
-.grid-container > * {
-  box-shadow: -1px 1px 7px 0px black;
-  border-radius: 4px;
-  padding: 0px;
-  text-align: center;
+a {
+  text-decoration: none;
+  color: $black;
 }
 
-.header {
-  grid-area: header;
-  background-color: rgb(255, 255, 255);
+.topheader {
+  box-shadow: 0 3px 5px rgb(98, 98, 98);
 }
 
-.navbar {
-  grid-area: navbar;
-  background-color: rgb(255, 255, 255);
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
-.sidebar {
-  grid-area: sidebar;
-  background-color: rgb(255, 255, 255);
+// cards de productos
+.toparticulo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.main {
-  grid-area: main;
-  background-color: #ffffff;
+/* Logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
-.footer {
-  grid-area: footer;
-  background-color: rgb(255, 255, 255);
+.logotype {
+  display: flex;
+  justify-content: center;
 }
 
-.grid-container {
-  display: grid;
-  gap: 5px;
-  grid-template:
-    "header" 200px
-    "navbar" 40px
-    "main" auto
-    "sidebar" 100px
-    "footer" 100px;
+// Imagen de producto y de nosotros
+.logo-2 {
+  display: flex;
+  justify-content: center;
 }
 
-//Vista tablet
-@media (min-width: 600px) {
-  .grid-container {
-    grid-template:
-      "header header" 500px
-      "navbar navbar" 50px
-      "main sidebar" auto
-      "footer footer" 100px /
-      200px auto;
+/* Menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 30px 15px;
+}
+
+.menu a {
+  color: $black;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 50px;
+  text-transform: uppercase;
+
+  position: relative;
+}
+
+.open-menu,
+.close-menu {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  /* Menu */
+  .menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #ffffff;
+    height: 100%;
+    overflow-y: auto;
   }
-}
 
-//Vista Computadora
-@media (min-width: 900px) {
-  .grid-container {
-    grid-template:
-      "header header header" auto
-      "navbar navbar navbar" auto
-      "main     main  main" auto
-      "sidebar sidebar sidebar" auto
-      "footer footer footer" auto /
-      auto auto auto;
+  .menu li {
+    padding: 0;
+  }
+
+  .menu a {
+    color: $black;
+    line-height: 60px;
   }
 }
