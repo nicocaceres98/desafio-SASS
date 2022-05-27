@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 .body-animaciones, body, .menu2 li a, ul {
   font-family: "Montserrat", sans-serif;
   background-color: white;
@@ -58,11 +58,20 @@ a {
   max-width: 980px;
   margin: 0 auto; }
 
+.navbarnavbar {
+  display: flex;
+  padding-left: 501px;
+  padding-right: 505px;
+  padding-bottom: 20px;
+  padding-top: 30px; }
+
 .toparticulo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px; }
+  padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px; }
 
 .texto {
   display: flex;
@@ -108,7 +117,8 @@ a {
 
 .logo-2 {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 20px; }
 
 /* Menu */
 .menu {
@@ -182,7 +192,7 @@ li {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+  font: 400 12px/16px "Montserrat", sans-serif; }
 
 #contact {
   background: #f9f9f9;
@@ -276,7 +286,8 @@ h2 {
   text-align: center;
   text-transform: uppercase;
   position: relative;
-  margin: 30px 0 60px; }
+  margin: 30px 0 60px;
+  padding-top: 10px; }
 
 h2::after {
   content: "";
@@ -289,6 +300,9 @@ h2::after {
   left: 0;
   right: 0;
   bottom: -20px; }
+
+h1 {
+  display: none; }
 
 .body-animaciones, body, .menu2 li a, ul {
   font-family: "Montserrat", sans-serif;

@@ -14,13 +14,24 @@ a {
   max-width: 980px;
   margin: 0 auto;
 }
+//footer
 
+// Buscador de productos
+.navbarnavbar {
+  display: flex;
+  padding-left: 501px;
+  padding-right: 505px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
 // cards de productos
 .toparticulo {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 // Sobre nosotros
@@ -79,6 +90,7 @@ a {
 .logo-2 {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 /* Menu */
