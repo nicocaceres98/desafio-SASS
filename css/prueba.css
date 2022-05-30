@@ -58,10 +58,21 @@ a {
   max-width: 980px;
   margin: 0 auto; }
 
+.profile-img2 {
+  width: 100%;
+  max-width: 1500px; }
+
+.btn-group {
+  width: 50%;
+  max-width: 2000px;
+  flex-wrap: wrap; }
+
 .navbarnavbar {
   display: flex;
-  padding-left: 501px;
-  padding-right: 505px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1750px;
+  padding-left: 150px;
   padding-bottom: 20px;
   padding-top: 30px; }
 
@@ -73,35 +84,46 @@ a {
   padding-left: 150px;
   padding-right: 150px; }
 
+.slider {
+  width: 100%;
+  max-width: 2000px; }
+
 .texto {
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding-left: 50px;
   padding-right: 100px; }
 
 .texto2 {
   display: flex;
-  flex-direction: column;
-  padding-left: 500px;
-  padding-right: 500px; }
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 100px; }
 
 .texto3 {
   display: flex;
-  justify-content: space-between;
-  padding-left: 500px;
-  padding-right: 500px; }
+  justify-content: center; }
+
+.profile-imagen {
+  width: 80%;
+  max-width: 750px; }
 
 .main-acordeon {
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px; }
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%; }
 
 .container2 {
   display: flex;
   justify-content: center;
   padding-left: 0px;
   padding-right: 0px; }
+
+.mapa {
+  width: 50%; }
 
 /* Logo */
 .logo {
