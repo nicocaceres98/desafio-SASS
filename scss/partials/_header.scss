@@ -1,9 +1,7 @@
 @import "../variables/variables";
-@import "../sass2/extend";
-@import "../sass2/mixins";
 
 body {
-  @extend .body-animaciones;
   min-height: 100%;
   font-family: "Montserrat", sans-serif;
+  text-align: $alinear-al-centro;
 }

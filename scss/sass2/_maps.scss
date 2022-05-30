@@ -1,13 +1,9 @@
 @import "../variables/variables";
 
-// $boton: (
-//   color: $black,
-//   centro: $alinear-al-centro,
-//   fSize: $size,
-// );
+$titulo: (
+  vista: $borrar,
+);
 
-// nav ul li a {
-//   text-align: map-get($boton, centro);
-//   font-size: map-get($boton, fSize);
-//   color: map-get($boton, color);
-// }
+h1 {
+  display: map-get($titulo, vista);
+}

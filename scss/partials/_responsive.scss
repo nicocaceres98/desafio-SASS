@@ -15,15 +15,6 @@ a {
   margin: 0 auto;
 }
 
-//botones abrir y cerrar
-.open-menu {
-  display: none;
-}
-
-.cerrar-menu {
-  display: none;
-}
-
 // Productos foto de portada
 .profile-img2 {
   width: 100%;
@@ -106,7 +97,6 @@ a {
 }
 
 //Mapa de contacto
-
 .mapa {
   width: 50%;
 }
@@ -155,13 +145,8 @@ a {
   position: relative;
 }
 
-.open-menu,
-.close-menu {
-  display: none;
-}
-
+// Dispositivos Moviles
 @media (max-width: 950px) {
-  /* Menu */
   .menu {
     flex-direction: column;
     width: 100%;
